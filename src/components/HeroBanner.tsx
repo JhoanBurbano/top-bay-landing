@@ -31,7 +31,7 @@ const HeroBanner = () => {
         <img
           src={personCleaner}
           alt="man with cleaning equipment"
-          className="self-end lg:mb-[60px] max-h-[524px] md:max-h-[600px] xl:max-h-[750px] mx-auto"
+          className="self-end lg:mb-[60px] max-h-[524px] md:max-h-[600px] mx-auto lg:max-h-[75vh]"
         />
 
         <img
