@@ -5,13 +5,13 @@ import MapComponent from "./MapComponent";
 const FooterSection = () => {
   return (
     <>
-      <section className="pt-44 bg-blue-500 relative min-h-[95vh] flex">
+      <section className="pt-44 bg-blue-500 relative min-h-[95vh] flex flex-col items-stretch pb-[100px] md:flex-row">
         <img
           src={divider}
           alt="section divider"
           className="w-full absolute top-0 left-0"
         />
-        <div className="w-[50%] flex flex-col items-center gap-10">
+        <div className="md:w-[50%] flex flex-col items-center gap-10">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center text-black">
             CONTACT <b className="font-bold text-white">US</b>
           </h2>
