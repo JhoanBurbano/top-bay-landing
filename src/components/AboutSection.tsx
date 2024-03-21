@@ -1,16 +1,17 @@
-import teamwork from "../assets/teamwork.png";
-import waves from "../assets/waves.svg";
+import teamwork from "../assets/teamwork_white_wall.png";
+import book from "../assets/book.svg";
+import { PathsEnum } from "../enums/paths.enum";
 
 
 const AboutSection = () => {
   return (
-    <article className="min-h-[95vh] relative pt-16 flex flex-col gap-10">
+    <article className="min-h-[95vh] relative pt-16 flex flex-col gap-10 bg-yellow-300 pb-[150px]" id={PathsEnum.ABOUT}>
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         ABOUT <b className="text-blue-500 font-bold">US</b>
       </h2>
       <main className="flex items-center flex-col mb-[150px] xl:flex-row 2xl:px-[5%]">
-        <p className="lg:w-[70%] lg:m-auto w-[80%] text-md lg:text-base md:pl-16 lg:text-justify">
-          Welcome to top bay area services, a leading provider of cleaning
+        <p className="lg:w-[70%] lg:m-auto w-[80%] text-md lg:text-base lg:text-justify bg-yellow-200 p-4 rounded-xl">
+          Welcome to <b className="font-semibold">Top Bay Aea Services</b>, a leading provider of cleaning
           services consulting in the Bay Area, California, USA. With our
           exceptional expertise and dedication, we strive to deliver top-notch
           cleaning solutions tailored to meet the unique needs of our clients.
@@ -25,7 +26,7 @@ const AboutSection = () => {
         </p>
         <img src={teamwork} alt="team work" className="w-[80%] max-w-[800px]" />
       </main>
-      <img src={waves} alt="waves separator" className="rotate-180 w-full absolute bottom-0 left-0" />
+      <img src={book} alt="book separator" className="rotate-180 w-full absolute bottom-0 left-0" />
     </article>
   );
 };

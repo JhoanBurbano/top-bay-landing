@@ -4,4 +4,5 @@ export enum PathsEnum {
     SERVICES = "/services",
     CONTACT = "/contact",
     TESTIMONIALS = "/testimonials",
+    PRIVACY_AND_POLICY = "/privacy-and-policy",
 }

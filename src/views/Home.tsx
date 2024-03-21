@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <div className="min-h-[100vh] flex flex-col">
         <HeroBanner />
-        <AboutSection />
         <ServicesSection />
+        <AboutSection />
         <TestimonialSection/>
         <FooterSection />
     </div>
