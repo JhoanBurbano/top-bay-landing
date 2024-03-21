@@ -1,5 +1,3 @@
-import React from "react";
-
 const PrivacyAndPolicy = () => {
   return (
     <div className="min-h-[100vh] p-[70px] flex justify-center">
