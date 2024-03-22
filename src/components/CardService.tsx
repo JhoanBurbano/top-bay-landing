@@ -15,7 +15,7 @@ const CardService: React.FC<CardServiceProps> = ({
 }) => {
   return (
     <article
-      className={`relative max-h-min flex flex-col text-white items-center rounded-xl overflow-hidden m-auto h-full animate__animated animate__fadeIn`}
+      className={`relative min-h-[398px] max-h-min flex flex-col text-white items-center rounded-xl overflow-hidden m-auto h-full animate__animated animate__fadeIn`}
     >
       {type === "image" ? (
         <img src={source} alt={alt} className="h-full w-full object-cover" />
@@ -27,6 +27,7 @@ const CardService: React.FC<CardServiceProps> = ({
           poster={thumb}
           loop
           muted
+          playsInline
           onTimeUpdate={(e)=>e.currentTarget.currentTime>5?e.currentTarget.currentTime=0:null}
         >
             <source src={source} type="video/mp4" />
@@ -36,7 +37,7 @@ const CardService: React.FC<CardServiceProps> = ({
       <span className="z-10 flex-1 bg-yellow-300 text-black min-h-[220px] text-center flex flex-col items-center gap-4 p-2 relative">
         <img src={divider} alt="divider" className="absolute top-0 left-[-1px] w-[102%] translate-y-[-100%] rotate-180 h-4"/>
         <Icon className="min-h-8 min-w-8 h-8 w-8" />
-        <h3 className="font-bold text-2xl">{title}</h3>
+        <h3 className="font-bold text-xl xl:text-2xl">{title}</h3>
         <p>{description}</p>
       </span>
     </article>
