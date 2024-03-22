@@ -29,7 +29,7 @@ const FooterSection = () => {
           className="w-full absolute bottom-0 left-0 rotate-180 h-[70px]"
         />
       </section>
-      <footer className="bg-[#1E3A66] min-h-[10vh] flex  justify-between text-white p-8">
+      <footer className="bg-[#1E3A66] min-h-[10vh] flex  justify-between text-white p-8 gap-4">
         <p>© 2024 - Top Bay Area Services - All rights reserved.</p>
         <Link to={PathsEnum.PRIVACY_AND_POLICY} className="text-blue-100">Privacy & Policy</Link>
       </footer>
