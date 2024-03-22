@@ -7,7 +7,7 @@ const ServicesSection = () => {
   return (
     <section className="min-h-[95vh] bg-white pt-16 flex flex-col gap-10 relative" id={PathsEnum.SERVICES}>
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center"><b className="text-blue-500 font-bold animate__animated animate__fadeInleft">OUR</b> SERVICES</h2>
-        <main className="w-[95%] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-[210px] items-stretch content-stretch">
+        <main className="w-[95%] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-[210px] items-stretch content-stretch flex-1">
             {
                 Services.map((service, index) => (
                     <CardService key={index} {...service} />))
