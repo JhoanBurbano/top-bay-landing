@@ -35,6 +35,7 @@ const ContactComponent = () => {
               type="text"
               placeholder='Enter your name'
               className="p-2 rounded-lg"
+              aria-label="name"
             />
             {error && <span className="text-sm text-red-200">{error.message}</span>}
           </span>
@@ -51,6 +52,7 @@ const ContactComponent = () => {
               type="text"
               placeholder='Enter your email'
               className="p-2 rounded-lg"
+              aria-label="email"
             />
             {error && <span className="text-sm text-red-200">{error.message}</span>}
           </span>
@@ -67,7 +69,7 @@ const ContactComponent = () => {
               type="number"
               placeholder='Enter your phone number'
               className="p-2 rounded-lg"
-
+              aria-label="phone"
             />
             {error && <span className="text-sm text-red-200">{error.message}</span>}
           </span>
@@ -86,6 +88,7 @@ const ContactComponent = () => {
         placeholder="Select a service for contact"
         className="rounded-lg w-full"
         onChange={(option)=>field.onChange(option?.value)}
+        aria-label="service"
       />
             {error && <span className="text-sm text-red-200">{error.message}</span>}
           </span>
@@ -102,6 +105,7 @@ const ContactComponent = () => {
               {...field}
               placeholder="Enter your message here..."
               className="p-2 rounded-lg h-32 resize-none"
+              aria-label="message"
             />
             {error && <span className="text-sm text-red-200">{error.message}</span>}
           </span>

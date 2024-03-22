@@ -46,6 +46,7 @@ const HeroBanner = () => {
         src={personCleaner}
         alt="man wearing black shirt and jeans, with cleaning equipment in your hands"
         className="self-end lg:mb-[60px] max-h-[524px] md:max-h-[600px] mx-auto lg:max-h-[75vh] 2xl:max-h-[750px] animate__animated animate__fadeInUp"
+        fetchPriority="high"
       />
 
       <img
