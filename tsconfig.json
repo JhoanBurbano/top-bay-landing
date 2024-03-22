@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "robots.txt"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
