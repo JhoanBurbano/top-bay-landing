@@ -44,12 +44,13 @@ const HeroBanner = () => {
       </main>
       <img
         src={personCleaner}
-        alt="man with cleaning equipment"
+        alt="man wearing black shirt and jeans, with cleaning equipment in your hands"
         className="self-end lg:mb-[60px] max-h-[524px] md:max-h-[600px] mx-auto lg:max-h-[75vh] 2xl:max-h-[750px] animate__animated animate__fadeInUp"
       />
 
       <img
         src={waves}
+        alt="section shape divider"
         className="w-full h-[40px] sm:h-[100px] lg:h-[150px] rotate-180 absolute bottom-0 left-0"
       />
     </section>

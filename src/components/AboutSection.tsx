@@ -24,9 +24,9 @@ const AboutSection = () => {
           efficient cleaning solutions that enhance the overall appearance and
           cleanliness of your premises.
         </p>
-        <img src={teamwork} alt="team work" className="w-[80%] max-w-[800px]" />
+        <img src={teamwork} alt="Four people with black t-shirts" className="w-[80%] max-w-[800px]" />
       </main>
-      <img src={book} alt="book separator" className="rotate-180 w-full absolute bottom-0 left-0" />
+      <img src={book} alt="book shape separator" className="rotate-180 w-full absolute bottom-0 left-0" />
     </article>
   );
 };

@@ -32,10 +32,11 @@ const CardService: React.FC<CardServiceProps> = ({
         >
             <source src={source} type="video/mp4" />
           Your browser does not support the video tag.
+          <title>{alt}</title>
         </video>
       )}
       <span className="z-10 flex-1 bg-yellow-300 text-black min-h-[220px] text-center flex flex-col items-center gap-4 p-2 relative">
-        <img src={divider} alt="divider" className="absolute top-0 left-[-1px] w-[102%] translate-y-[-100%] rotate-180 h-4"/>
+        <img src={divider} alt="shape divider" className="absolute top-0 left-[-1px] w-[102%] translate-y-[-100%] rotate-180 h-4"/>
         <Icon className="min-h-8 min-w-8 h-8 w-8" />
         <h3 className="font-bold text-xl xl:text-2xl">{title}</h3>
         <p>{description}</p>

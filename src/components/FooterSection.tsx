@@ -11,7 +11,7 @@ const FooterSection = () => {
       <section className="pt-44 bg-blue-500 relative min-h-[95vh] flex flex-col items-stretch pb-[100px] md:flex-row" id={PathsEnum.CONTACT}>
         <img
           src={divider}
-          alt="section divider"
+          alt="section shape divider"
           className="w-full absolute top-0 left-0"
         />
         <div className="md:w-[50%] flex flex-col items-center gap-10">
@@ -25,7 +25,7 @@ const FooterSection = () => {
         </div>
         <img
           src={dividerFooter}
-          alt="section divider"
+          alt="section shape divider"
           className="w-full absolute bottom-0 left-0 rotate-180 h-[70px]"
         />
       </section>
