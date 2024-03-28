@@ -2,9 +2,10 @@ import { Controller, useForm } from "react-hook-form";
 import { Contact } from "../interfaces/contact.interface";
 import ReactSelect from "react-select";
 import { ServicesOptions } from "../constants/services.constant";
+import { sendMail } from "../services/mail.service";
 
 const ContactComponent = () => {
-  const { control, handleSubmit } = useForm<Contact>(
+  const { control, handleSubmit, reset } = useForm<Contact>(
     {
       defaultValues: {
         name: "",
@@ -16,7 +17,10 @@ const ContactComponent = () => {
     }
   );
   const onSubmit = async (data: Contact) => {
-    console.log('data :>> ', data);
+    const response = await sendMail(data);
+    if(response) {
+      reset();
+    }
   };
 
   return (

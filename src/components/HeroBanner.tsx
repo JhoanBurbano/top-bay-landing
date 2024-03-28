@@ -16,7 +16,7 @@ const HeroBanner = () => {
         </h2>
         <p className="text-white">
           Top Bay Area Services is a leading provider of cleaning services
-          consulting in Bay Area CA, USA.
+          and cleaning organizations consulting in Bay Area CA, USA.
         </p>
         <span className="flex gap-2 flex-col items-center sm:items-start sm:flex-row">
           <i className="p-2 bg-[#00000022] max-w-max rounded-lg text-white flex gap-2 text-sm md:text-md">

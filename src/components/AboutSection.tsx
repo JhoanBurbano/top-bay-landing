@@ -1,4 +1,4 @@
-import teamwork from "../assets/teamwork_white_wall.png";
+import teamwork from "../assets/teamwork.png";
 import book from "../assets/book.svg";
 import { PathsEnum } from "../enums/paths.enum";
 
@@ -12,7 +12,7 @@ const AboutSection = () => {
       <main className="flex items-center flex-col mb-[150px] xl:flex-row 2xl:px-[5%]">
         <p className="lg:w-[70%] lg:m-auto w-[80%] text-md lg:text-base lg:text-justify bg-yellow-200 p-4 rounded-xl">
           Welcome to <b className="font-semibold">Top Bay Aea Services</b>, a leading provider of cleaning
-          services consulting in the Bay Area, California, USA. With our
+          services and cleaning organizations consulting in the Bay Area, California, USA. With our
           exceptional expertise and dedication, we strive to deliver top-notch
           cleaning solutions tailored to meet the unique needs of our clients.
           At top bay area services, we understand the importance of a clean and

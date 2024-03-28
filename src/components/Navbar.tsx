@@ -22,13 +22,13 @@ const Navbar = () => {
           duration={500}
           className="cursor-pointer"
         >
-          <h1 className="font-bold bg-white p-2 text-blue-500 rounded-xl sm:text-white sm:bg-transparent">
+          <h1 className="font-bold bg-white p-2 text-blue-500 rounded-xl sm:text-white sm:bg-transparent sm:text-xl">
             Top Bay Area Services
           </h1>
         </Link>
       ) : (
         <LinkNavigate to="/">
-          <h1 className="font-bold bg-white p-2 text-blue-500 rounded-xl sm:text-white sm:bg-transparent">
+          <h1 className="font-bold bg-white p-2 text-blue-500 rounded-xl sm:text-white sm:bg-transparent sm:text-xl">
             Top Bay Area Services
           </h1>
         </LinkNavigate>
